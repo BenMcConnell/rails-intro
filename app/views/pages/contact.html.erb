@@ -1,0 +1,11 @@
+<h1>Contact Us</h1>
+
+
+
+<ol>
+  <% @members.each do |member| %>
+    <li><%= member %></li>
+  <% end %>
+</ol>
+
+<%= link_to "contact us", contact_path %>
